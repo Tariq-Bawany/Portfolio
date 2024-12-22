@@ -1,0 +1,27 @@
+@media (max-width:992px) and (min-width:768px) {
+    #nav-bar>i {
+        display: flex;
+    }
+
+    #nav-bar .nav-links {
+        display: none;
+    }
+
+    #nav-bar .nav-icons {
+        display: none;
+    }
+}
+
+@media (max-width:767px) {
+    #nav-bar>i {
+        display: flex;
+    }
+
+    #nav-bar .nav-links {
+        display: none;
+    }
+
+    #nav-bar .nav-icons {
+        display: none;
+    }
+}

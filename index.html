@@ -7,6 +7,7 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 
 <body>
@@ -14,18 +15,32 @@
 
         <div id="nav-bar">
             <h1>MT </h1>
-            <div id="nav-links">
+            <i class="ri-menu-line" onclick="navbarExpand()"></i>
+            <div class="nav-links">
                 <a href="">Home</a>
                 <a href="">About</a>
                 <a href="">Projects</a>
                 <a href="">Contact</a>
             </div>
-
-            <div id="nav-icons">
+            <div class="nav-icons">
                 <a href=""><i class="ri-linkedin-box-fill"></i></a>
                 <a href=""><i class="ri-facebook-fill"></i></a>
                 <a href=""><i class="ri-twitter-x-fill"></i></a>
+            </div>
+        </div>
 
+        <div id="sidebar">
+            <i class="ri-close-large-line" onclick="navbarCollapse()" onblur="navbarCollapse()"></i>
+            <div class="nav-links">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Projects</a>
+                <a href="">Contact</a>
+            </div>
+            <div class="nav-icons">
+                <a href=""><i class="ri-linkedin-box-fill"></i></a>
+                <a href=""><i class="ri-facebook-fill"></i></a>
+                <a href=""><i class="ri-twitter-x-fill"></i></a>
             </div>
         </div>
 
@@ -168,6 +183,7 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
