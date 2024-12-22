@@ -76,17 +76,13 @@ body {
     display: none;
     background: rgb(21, 18, 13, 0.8);
     backdrop-filter: blur(10px);
-    height: 100vh;
+    height: 100%;
     width: 300px;
     z-index: 99;
     position: fixed;
     top: 0;
     right: 0;
     padding: 40px;
-}
-
-#sidebar::backdrop {
-    filter: blur(10px);
 }
 
 #sidebar>.nav-links {
